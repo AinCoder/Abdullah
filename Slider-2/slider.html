@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="slider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+</head>
+<body>
+    <div class="slider">
+        <div class="prev">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="slide-items">
+            <div class="item">
+                <img src="img/img_snow_wide.jpg" alt="">
+                <h2>slide 1</h2>
+            </div>
+            <div class="item">
+                <img src="img/img_nature_wide.jpg" alt="">
+                <h2>slide 2</h2>
+            </div>
+            <div class="item">
+                <img src="img/img_mountains_wide.jpg" alt="">
+                <h2>slide 3</h2>
+            </div>
+        </div>
+        <div class="next">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="count">
+            <ul>
+                <li>
+                    <input type="radio" class="active" name="active-slide" checked="checke">
+                </li>
+                <li>
+                    <input type="radio" name="active-slide"/>
+                </li>
+                <li>
+                    <input type="radio" name="active-slide"/>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="slider.js"></script>
+</body>
+</html>
